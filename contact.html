@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>m0vie man1a — Contact</title>
+  <meta name="title" content="m0vie man1a — Honest Film Reviews!">
+  <meta name="description" content="Film ratings and reviews genuinely made for you.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.png" width="350" alt="m0vie man1a logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover:underline" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="reviews.html" class="navbar-link hover:underline" data-nav-link>Film Reviews</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link hover:underline" data-nav-link>About Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Search</span>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="span one"></span>
+          <span class="span two"></span>
+          <span class="span three"></span>
+        </button>
+
+        <a href="contact.html" class="btn">Contact Us</a>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BAR
+  -->
+
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="text" name="" id='find' placeholder="Search" class="input-field" onkeyup="search()">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Search a film or movie we might have reviewed.</p>
+
+  </div>
+
+  <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #ABOUT US
+      -->
+
+      <section class="section featured" aria-label="featured post">
+        <div class="container">
+
+          <p class="section-subtitle">
+             <strong class="strong"> </strong>
+          </p>
+
+
+      <!-- 
+        - #Contact
+      -->
+
+      <section class="section about" aria-label="about us">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <strong class="strong">Contact Us</strong>
+          </p>
+
+          <br>
+          <p>
+            Follow us on:
+          </p>
+          <a href="https://www.facebook.com/profile.php?id=100094908908527"><strong>Facebook</strong></a>
+          <a href="https://twitter.com/MovieMania_01"><strong>Twitter</strong></a>
+          <br>
+          <p>
+            Or send us an E-mail at <strong>moviemaniareviews01@gmail.com</strong>!
+          </p>
+          
+          <section class="section newsletter">
+
+            <h2 class="h2 section-title">
+              Want to submit a <strong class="strong">review request</strong>?
+            </h2>
+    
+            <form name="request" method="POST" 
+              action="https://script.google.com/macros/s/AKfycbww586gKQQS19hcYzbYc4hPqUSQ7l-Plswyge4IhYUI3dTydSV-0HyMkiZ9QTVnGq-F/exec" 
+              class="newsletter-form">
+              <input type="text" name="request" placeholder="Name of Movie" class="email-field">
+    
+              <button type="submit" class="btn">Request</button>
+            </form>
+    
+          </section>
+
+          </div>
+
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo.png" width="200" alt="m0vie man1a logo">
+          </a>
+
+          <p class="footer-text">
+            Where all are honest film reviews.
+          </p>
+
+        </div>
+
+        
+        <ul class="footer-list">
+
+          <!-- FILM REVIEWS -->
+          <li>
+            <p class="h5">Film Reviews</p>
+          </li>
+
+          <li>
+            <a href="reviews.html" class="footer-link hover:underline">All Reviews</a>
+          </li>
+
+          <li>
+            <a href="top-rated.html" class="footer-link hover:underline">Top Rated</a>
+          </li>
+
+          <li>
+            <a href="review-request.html" class="footer-link hover:underline">Submit a Request</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <!-- SOCIAL -->
+          <li>
+            <p class="h5">Social</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="https://www.facebook.com/profile.php?id=100094908908527" 
+            class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="https://twitter.com/MovieMania_01" 
+            class="footer-link hover:underline">Twitter</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <!-- ABOUT -->
+          <li>
+            <p class="h5">About</p>
+          </li>
+
+          <li>
+            <a href="about.html" class="footer-link hover:underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="footer-link hover:underline">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; m0vie man1a 2023. A Project in <a href="#" class="copyright-link hover:underline">Web Development</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
